@@ -87,7 +87,7 @@ watch(myArray, (newVal) =>{
               Bill Total: $<input type="text" v-model="x.billTotal"/>
             </label>
             <label>
-             <span>Tip Percentage: <input type="text" v-model="x.tipPercentage" style="width: 45px;"/>%</span>
+             <span>Tip Percentage: <input type="text" v-model="x.tipPercentage" style="width: 60px;"/>%</span>
             </label>
             <label>
               Number of People: <input type="text" v-model="x.numPeople"/>
