@@ -56,20 +56,20 @@ watch(myArray, (newVal) =>{
     </section>
 
     <section class="create-tiplist">
-      <h2>Tip Calculator</h2>
+      <h2>Split-Tip Calculator</h2>
       <form @submit.prevent = "calcTip">
 
         <h3>What is the bill total?</h3>
 
-        <input type="text" placeholder="Bill Cost" v-model="input_bill"/>
+        <input type="text" placeholder="Bill Total" v-model="input_bill"/>
 
-        <h3>What is the percentage for tip?</h3>
+        <h3>What is the percentage for the tip?</h3>
 
-        <input type="text" placeholder="Tip Percentage" v-model="input_tip"/>
+        <input type="text" placeholder="Tip Percentage %" v-model="input_tip"/>
 
-        <h3>How many people?</h3>
+        <h3>How many people are splitting the tip?</h3>
 
-        <input type="text" placeholder="# of People" v-model="input_people"/>
+        <input type="text" placeholder="Number of People" v-model="input_people"/>
 
         <input type="submit" value="Calculate Tip">
       </form>
